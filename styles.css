@@ -11398,27 +11398,7 @@ hr.divider-light {
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
     color: #f4623a;
   }
-}
 
-header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(48deg, #8614ce, #ff0057);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-header.masthead:before{
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  top: 200px;
-  background: #fff;
-  clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
