@@ -11645,5 +11645,26 @@ header.masthead h1, header.masthead .h1 {
   background-color: #555555;
 }
 
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(48deg, #8614ce, #ff0057);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  
+  header.masthead:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    top: 200px;
+    background: #fff;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+
+  }
 
 
