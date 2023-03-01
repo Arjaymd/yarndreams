@@ -7840,7 +7840,7 @@ textarea.form-control-lg {
 
 .bg-danger {
   --bs-bg-opacity: 1;
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.5) 0%, rgba(92, 77, 66, 0.5) 100%), url("matt.JPG");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.5) 0%, rgba(92, 77, 66, 0.5) 100%), url("../assets/img/matt.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11398,17 +11398,16 @@ hr.divider-light {
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
     color: #f4623a;
   }
-  
-  header.masthead {
+}
+
+header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background:  linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("tz.jpg");
+  background: linear-gradient(to bottom, rgba(0,0,0, 0.5) 0%, rgba(0,0,0, 0.3) 100%), url("tz.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-
-
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
@@ -11635,6 +11634,7 @@ header.masthead h1, header.masthead .h1 {
     margin-top: 50px;
 }
 }
+
 #myBtn {
   display: none;
   position: fixed;
@@ -11654,6 +11654,3 @@ header.masthead h1, header.masthead .h1 {
 #myBtn:hover {
   background-color: #555555;
 }
-
-
-
